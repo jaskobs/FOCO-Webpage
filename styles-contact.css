@@ -1,0 +1,139 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}jl
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/WallpaperDog-20449937.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+	
+	
+}
+
+.center {
+    width: 800px;
+	padding: 3%;
+    margin: 150px auto;
+ 	background: rgba(243, 243, 16, 0.90); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px solid rgb(255, 255, 255);
+	border-radius: 15px;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 2em;
+	font-weight: 600;
+    margin: 0px auto 10px auto;
+    color: rgb(56, 56, 188);
+}
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;
+    line-height: 1.4;
+    color: rgb(56, 56, 188);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(56, 56, 188);
+}
+
+nav {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.2em;
+	width: 700px;
+	margin: 0 auto;
+	border: solid rgb(255, 255, 255);
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+    
+nav li {
+	display: inline-block;
+}    
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: rgb(56, 56, 188);
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background: rgba(243, 243, 16);
+}
